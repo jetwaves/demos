@@ -1,0 +1,40 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: jetwaves
+ * Date: 18-3-16
+ * Time: 上午11:10
+ */
+
+class Dog
+{
+    public $name;
+    public $age;
+
+    /**
+     * Dog constructor.
+     */
+    public function __construct($name, $age,$skill)
+    {
+        $this->name = $name;
+        $this->age = $age;
+        $this->skill = $skill;
+
+    }
+
+
+    public function bark(){
+        echo ''.__FILE__.'->'.__method__.'() line:'.__line__.PHP_EOL.'   Dog barks: wang wang wang '.PHP_EOL.PHP_EOL;
+    }
+
+    public function eat(){
+
+        echo ''.__FILE__.'->'.__method__.'() line:'.__line__.PHP_EOL.'   Dog Eating : mia mia mia '.PHP_EOL.PHP_EOL;
+    }
+
+    public function showSkill()
+    {
+        echo ''.__FILE__.'->'.__method__.'() line:'.__line__.PHP_EOL.'   Dog shows: wang +  '.$this->skill.PHP_EOL.PHP_EOL;
+    }
+
+}
