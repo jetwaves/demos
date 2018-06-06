@@ -5,7 +5,6 @@
  * Date: 18-3-16
  * Time: 上午11:10
  */
-namespace demos\testReflection;
 
 class Dog
 {
@@ -44,6 +43,11 @@ class Dog
 
     public static function say($word){
         echo ''.__FILE__.'->'.__method__.'() line:'.__line__.PHP_EOL.'   Dog says '.$word.' to you' .PHP_EOL.PHP_EOL;
+    }
+
+    public static function fetch($toyName){
+        echo ''.__FILE__.'->'.__method__.'() line:'.__line__.PHP_EOL.'   Dog fetched a  '.$toyName.' for you' .PHP_EOL.PHP_EOL;
+        return $toyName.' Fetched';
     }
 
 
