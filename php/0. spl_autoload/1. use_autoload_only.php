@@ -6,10 +6,11 @@
  * Time: 上午11:21
  */
 
-
+require('./Dog.php');
 
 function __autoload($classname)
 {
+    echo ''.__FILE__.'->'.__method__.'() line:'.__line__.PHP_EOL.'   $classname ='.$classname.PHP_EOL.PHP_EOL;
     $filename = "./".$classname.".php";
     if (is_file($filename))
     {
@@ -32,3 +33,4 @@ $kf1->fight();
 $kf1->showSkill();
 
 
+$kf3 = new Houzi();

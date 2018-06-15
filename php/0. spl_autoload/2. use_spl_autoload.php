@@ -29,6 +29,7 @@
 
 function loader01($classname)
 {
+    echo ''.__FILE__.'->'.__method__.'() line:'.__line__.PHP_EOL.'  1 $classname ='.$classname.PHP_EOL.PHP_EOL;
     $filename = "./".$classname.".php";
     if (is_file($filename))
     {
@@ -40,6 +41,7 @@ function loader01($classname)
 
 function loader02($classname)
 {
+    echo ''.__FILE__.'->'.__method__.'() line:'.__line__.PHP_EOL.'  2 $classname ='.$classname.PHP_EOL.PHP_EOL;
     $filename = "./".$classname.".class.php";
     if (is_file($filename))
     {

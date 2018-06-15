@@ -5,7 +5,6 @@
  * Date: 18-3-16
  * Time: 上午11:10
  */
-namespace demos\testReflection;
 
 class Dog
 {
