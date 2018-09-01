@@ -19,6 +19,8 @@
   "dependencies": {
     "Promise": "^1.0.5",
     "async": "^2.6.1",
-    "moment": "^2.22.2"
+    "chalk": "^2.4.1",
+    "moment": "^2.22.2",
+    "simple-git": "^1.96.0"
   }
 }
