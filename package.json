@@ -1,0 +1,24 @@
+{
+  "name": "demos",
+  "version": "1.0.0",
+  "description": "php and javascript code snippet demos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jetwaves/demos.git"
+  },
+  "author": "jetwaves@qq.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jetwaves/demos/issues"
+  },
+  "homepage": "https://github.com/jetwaves/demos#readme",
+  "dependencies": {
+    "Promise": "^1.0.5",
+    "async": "^2.6.1",
+    "moment": "^2.22.2"
+  }
+}
