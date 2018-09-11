@@ -148,7 +148,19 @@ const gitRepo = 'https://github.com/jetwaves/mysqlStreamImporter.git';
 // });
 
 
+// 8. git remote -v
+// simpleGit.getRemotes(true ,function(err, info){
+//     console.log(chalk.bold.inverse("\r\n"+moment().format('Y/MM/DD HH:mm:ss\t\t\t\t')+__filename));
+//     console.log('┏---- INFO: ----- start [err @ ] -----');console.dir(err);console.log('┗---- INFO: -----  end  [err @ ] -----');
+//
+//     console.log(chalk.bold.inverse("\r\n"+moment().format('Y/MM/DD HH:mm:ss\t\t\t\t')+__filename));
+//     console.log('┏---- INFO: ----- start [info @ ] -----');console.dir(info);console.log('┗---- INFO: -----  end  [info @ ] -----');
+// });
 
+// [ { name: 'origin',
+//     refs:
+//         { fetch: 'https://github.com/jetwaves/demos.git',
+//             push: 'https://github.com/jetwaves/demos.git' } } ]
 
 
 
