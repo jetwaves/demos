@@ -44,19 +44,19 @@ const gitRepo = 'https://github.com/jetwaves/mysqlStreamImporter.git';
 // });
 
 
-// // 4. Git log / with no options
+// // 4. Git log / with no // 5. Git log  with options
+let option5 = {'--since':'2018-06-01', '--until':'2018-09-31'};
+simpleGit.log(option5, function(err, log){
+    console.log("\r\n"+moment().format('Y/MM/DD HH:mm:ss\t\t\t\t')+__filename);
+    console.log('┏---- INFO: ----- start [log @ ] -----');console.dir(log);console.log('┗---- INFO: -----  end  [log @ ] -----');
+});options
 // simpleGit.log(function(err, log){
 //     console.log("\r\n"+moment().format('Y/MM/DD HH:mm:ss\t\t\t\t')+__filename);
 //     console.log('┏---- INFO: ----- start [log @ ] -----');console.dir(log);console.log('┗---- INFO: -----  end  [log @ ] -----');
 // });
 
 
-// // 5. Git log  with options
-// let option5 = {'--since':'2018-06-01', '--until':'2018-09-31'};
-// simpleGit.log(option5, function(err, log){
-//     console.log("\r\n"+moment().format('Y/MM/DD HH:mm:ss\t\t\t\t')+__filename);
-//     console.log('┏---- INFO: ----- start [log @ ] -----');console.dir(log);console.log('┗---- INFO: -----  end  [log @ ] -----');
-// });
+
 
 
 // // // 6. Git branch          to get a total summary
