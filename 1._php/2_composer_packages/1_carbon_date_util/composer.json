@@ -1,0 +1,6 @@
+{
+    "name": "jetwaves/1_carbon_date_util",
+    "require": {
+        "nesbot/carbon": "^1.35"
+    }
+}
